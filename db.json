@@ -1,16 +1,62 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+  "disciplinas": 
+  [
+    { 
+      "id": 1, 
+      "titulo": "Administração", 
+      "materiais": [
+        {
+          "id": 1,
+          "pendencias": 3,
+          "title": "Administração de vendas e varejo"
+        },
+        {
+          "id": 2,
+          "pendencias": 12,
+          "title": "Adm inistração de outra coisa"
+        },
+        {
+          "id": 3,
+          "pendencias": 22,
+          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        },
+        {
+          "id": 4,
+          "pendencias": 22,
+          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ]
+    },
+    { 
+      "id": 1, 
+      "titulo": "Teste", 
+      "materiais": [
+        {
+          "id": 1,
+          "pendencias": 3,
+          "title": "Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+          "id": 2,
+          "pendencias": 12,
+          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+        },
+        {
+          "id": 3,
+          "pendencias": 22,
+          "title": "tempor incididunt ut"
+        }
+      ]
     }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "materia": {
+    "curso": "Administração",
+    "materia": "Administração de vendas e varejo"
+  },
+  "continuar": {
+    "materia": "Administração de vendas e varejo",
+    "curso": "Administração",
+    "aula": "01",
+    "material": "PDF"
+  }
 }
